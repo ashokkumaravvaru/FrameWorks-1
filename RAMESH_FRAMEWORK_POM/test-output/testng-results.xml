@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18555" started-at="2017-10-09T10:18:35Z" finished-at="2017-10-09T10:18:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18555" started-at="2017-10-09T10:18:35Z" finished-at="2017-10-09T10:18:54Z">
+      <class name="com.rameshsoft.businessScript.Test1">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.rameshsoft.businessScript.Test1@73ad2d6]" name="openBrowser" is-config="true" duration-ms="13256" started-at="2017-10-09T15:48:22Z" finished-at="2017-10-09T15:48:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="extentrep(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.businessScript.Test1@73ad2d6]" name="extentrep" is-config="true" duration-ms="458" started-at="2017-10-09T15:48:35Z" finished-at="2017-10-09T15:48:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rameshsoft.businessScript.Test1.GmailLogin() throws java.io.IOException,org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentrep -->
+        <test-method status="PASS" signature="GmailLogin()[pri:0, instance:com.rameshsoft.businessScript.Test1@73ad2d6]" name="GmailLogin" duration-ms="17030" started-at="2017-10-09T15:48:36Z" finished-at="2017-10-09T15:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GmailLogin -->
+        <test-method status="PASS" signature="closereports()[pri:0, instance:com.rameshsoft.businessScript.Test1@73ad2d6]" name="closereports" is-config="true" duration-ms="1022" started-at="2017-10-09T15:48:53Z" finished-at="2017-10-09T15:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closereports -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.rameshsoft.businessScript.Test1@73ad2d6]" name="afterSuite" is-config="true" duration-ms="1704" started-at="2017-10-09T15:48:54Z" finished-at="2017-10-09T15:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.rameshsoft.businessScript.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
